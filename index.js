@@ -11,7 +11,7 @@ mongoose.connect('mongodb+srv://formaciones:uYAQNuTvLhhJsL2W@cluster0.z8q15cp.mo
   } else{
       console.log("La conexion a base esta corriendo correctamente");
       app.listen(port,function(){
-          console.log("servidor del api rest online");
+          console.log("servidor del api rest online en el puerto :" ,port);
       });
   } 
     
